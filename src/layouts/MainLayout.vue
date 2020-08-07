@@ -23,14 +23,14 @@
         style="height: calc(100% - 192px); margin-top: 192px; border-right: 1px solid #ddd"
       >
         <q-list padding>
-          <q-item clickable v-ripple>
+          <q-item to="/" exact clickable v-ripple>
             <q-item-section avatar>
               <q-icon name="list" />
             </q-item-section>
 
             <q-item-section>Todo</q-item-section>
           </q-item>
-          <q-item clickable v-ripple>
+          <q-item to="/help" exact clickable v-ripple>
             <q-item-section avatar>
               <q-icon name="help" />
             </q-item-section>
